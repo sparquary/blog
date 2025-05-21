@@ -15,10 +15,17 @@ Thumbs.db
 
 # Node modules if you use npm later
 node_modules/
-# SpecStory explanation file
-.specstory/
+
+# Hugo specific
+/public/
+/resources/_gen/
+.hugo_build.lock
+/assets/jsconfig.json
 
 # Cursor files
 .cursorindexingignore
+
 # SpecStory explanation file
 .specstory/
+# SpecStory explanation file
+.specstory/.what-is-this.md
