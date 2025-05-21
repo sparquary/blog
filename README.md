@@ -1,15 +1,9 @@
 # Sparquary
 
-This repository contains the website for [sparquary.com](https://sparquary.com).
+This repository contains the Hugo-based website for [sparquary.com](https://sparquary.com).
 
-## Development
+## About
 
-To run this site locally:
+Sparquary is a personal site built with [Hugo](https://gohugo.io/) and the [Hugo Book theme](https://github.com/alex-shpak/hugo-book).
 
-1. Clone the repository
-2. Navigate to the project directory
-3. You can use a simple HTTP server to preview locally:
-   ```
-   python -m http.server
-   ```
-4. Visit http://localhost:8000 in your browser
+
