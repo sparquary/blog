@@ -1,0 +1,42 @@
+baseURL = 'https://sparquary.com/'
+languageCode = 'en-us'
+title = 'Sparquary'
+theme = 'hugo-book'
+
+# Ignore logs
+ignoreLogs = ['warning-goldmark-raw-html']
+
+# Book theme options
+[params]
+  # Sets color theme: light, dark or auto
+  BookTheme = 'light'
+
+  # Controls table of contents visibility on right side of pages
+  BookToC = true
+
+  # Display posts section on the homepage
+  BookSection = 'posts'
+
+  # Date format for posts
+  BookDateFormat = 'January 2, 2006'
+  
+  # Enable search
+  BookSearch = true
+  
+  # Disable previous/next navigation
+  BookMenuBundle = '/menu'
+
+  # Use git commit info for "Last Modified" time
+  BookRepo = 'https://github.com/yourusername/sparquary'
+  BookEditPath = 'edit/main'
+
+# Enable HTML in markdown
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
+
+# Taxonomies for organizing content
+[taxonomies]
+  tag = "tags"
+  category = "categories"
